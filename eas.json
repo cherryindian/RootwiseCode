@@ -1,0 +1,48 @@
+{
+  "cli": {
+    "version": ">= 16.3.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "",
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID":"",
+        "EXPO_PUBLIC_APPWRITE_DISEASES_COLLECTION_ID":"",
+        "EXPO_PUBLIC_APPWRITE_USERIMAGE_COLLECTION_ID":"",
+        "EXPO_PUBLIC_APPWRITE_STORAGE_ID":""
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "",
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID":"",
+        "EXPO_PUBLIC_APPWRITE_DISEASES_COLLECTION_ID":"",
+        "EXPO_PUBLIC_APPWRITE_USERIMAGE_COLLECTION_ID":"",
+        "EXPO_PUBLIC_APPWRITE_STORAGE_ID":""
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "",
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID":"",
+        "EXPO_PUBLIC_APPWRITE_DISEASES_COLLECTION_ID":"",
+        "EXPO_PUBLIC_APPWRITE_USERIMAGE_COLLECTION_ID":"",
+        "EXPO_PUBLIC_APPWRITE_STORAGE_ID":""
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
